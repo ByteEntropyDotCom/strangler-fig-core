@@ -1,6 +1,8 @@
 name: Manual Docker Build
 
 on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:

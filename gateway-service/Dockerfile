@@ -1,4 +1,4 @@
-# Stage 1: Extract layers (Optimizes build cache)
+# Stage 1: Extract layers
 FROM eclipse-temurin:21-jre-alpine as builder
 WORKDIR application
 ARG JAR_FILE=target/*.jar
